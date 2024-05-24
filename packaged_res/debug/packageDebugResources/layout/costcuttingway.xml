@@ -1,0 +1,17 @@
+<costcutting>
+    <expenses>
+        <expense>
+            <category>Office Supplies</category>
+            <amount>$500</amount>
+        </expense>
+        <expense>
+            <category>Utilities</category>
+            <amount>$1000</amount>
+        </expense>
+        <!-- Add more expense items as needed -->
+    </expenses>
+    <budget>
+        <total>$5000</total>
+        <!-- Other budget-related elements can be added here -->
+    </budget>
+</costcutting>

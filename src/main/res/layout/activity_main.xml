@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MyFinanceApp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnStartLearning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Learning"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBudgetingTools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Budgeting Tools"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSpendingTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spending Tracker"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSpendingTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cost Cutting for Tamil"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budgeting Tool"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Income Section -->
+    <TextView
+        android:id="@+id/income_label_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Income:"
+        android:textSize="18sp"
+        android:layout_below="@id/title_textView"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"/>
+
+    <EditText
+        android:id="@+id/income_editText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter income amount"
+        android:inputType="numberDecimal"
+        android:layout_toEndOf="@id/income_label_textView"
+        android:layout_alignBaseline="@id/income_label_textView"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Expenses Section -->
+    <TextView
+        android:id="@+id/expenses_label_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expenses:"
+        android:textSize="18sp"
+        android:layout_below="@id/income_label_textView"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"/>
+
+    <!-- Example Expense Input (You can add more) -->
+    <TextView
+        android:id="@+id/expense1_label_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense 1:"
+        android:textSize="16sp"
+        android:layout_below="@id/expenses_label_textView"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"/>
+
+    <EditText
+        android:id="@+id/expense1_editText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter expense amount"
+        android:inputType="numberDecimal"
+        android:layout_toEndOf="@id/expense1_label_textView"
+        android:layout_alignBaseline="@id/expense1_label_textView"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Buttons for Calculations -->
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_below="@id/expense1_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/calculate_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Result Section -->
+    <TextView
+        android:id="@+id/result_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/reset_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>
